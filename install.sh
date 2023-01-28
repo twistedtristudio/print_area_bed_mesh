@@ -17,10 +17,10 @@ check_klipper()
 # Step 2: link extension to Klipper
 link_extension()
 {
-    target=$(find ~/printer_data/config" -name "print_area_bed_mesh.cfg")
+    target=$(find ~/printer_data/config -name "print_area_bed_mesh.cfg")
     if [[ -z "$target" ]]
     then
-	target="$HOME/printer_data/config"/print_area_bed_mesh.cfg"
+	target="$HOME/printer_data/config/print_area_bed_mesh.cfg"
     fi
     echo "Linking ${SRCDIR}/print_area_bed_mesh.cfg to $target"
     ln -sf "${SRCDIR}/print_area_bed_mesh.cfg" "$target"

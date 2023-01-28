@@ -41,7 +41,7 @@ Through Fluidd/Mainsail, edit printer.cfg file and add the following line at the
 From Fluidd/Mainsail, edit moonraker.conf (in the same folder as your printer.cfg file) and add:<pre>[update_manager print_area_bed_mesh]
 type: git_repo
 path: ~/print_area_bed_mesh
-origin: https://github.com/Turge08/print_area_bed_mesh.git
+origin: https://github.com/twistedtristudio/print_area_bed_mesh.git
 is_system_service: False</pre>
 
 NOTE: You must perform step #1 at least once or Moonraker will generate an error.

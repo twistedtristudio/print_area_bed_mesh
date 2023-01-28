@@ -31,7 +31,7 @@ This is currently in development. While it works on my 2 printers, it's impossib
 
 ### 1. Download and install the macro
 SSH into the Pi and run the following commands:<pre>cd ~
-git clone https://github.com/Turge08/print_area_bed_mesh.git
+git clone https://github.com/twistedtristudio/print_area_bed_mesh.git
 ~/print_area_bed_mesh/install.sh</pre>
 
 ### 2. Include macro in your printer.cfg 
